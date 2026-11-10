@@ -1,0 +1,2 @@
+# Garder les scripts PowerShell tels quels (BOM UTF-8 + CRLF) pour Windows PowerShell 5.1
+*.ps1 -text
