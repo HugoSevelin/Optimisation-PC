@@ -1,2 +1,4 @@
 # Garder les scripts PowerShell tels quels (BOM UTF-8 + CRLF) pour Windows PowerShell 5.1
 *.ps1 -text
+# Les scripts bash doivent garder des fins de ligne Unix (LF), sinon ils échouent sur Mac
+*.sh text eol=lf
